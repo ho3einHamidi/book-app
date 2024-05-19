@@ -1,0 +1,23 @@
+header {
+  background-color: #3e3f47;
+  max-width: 1000px;
+  margin: 32px auto;
+  height: 82px;
+  border-radius: 16px;
+  padding-left: 32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+footer {
+  background-color: #3e3f47;
+  max-width: 1000px;
+  margin: 32px auto;
+  height: 82px;
+  font-size: 1rem;
+  border-radius: 16px;
+  padding-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

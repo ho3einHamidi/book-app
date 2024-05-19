@@ -1,0 +1,35 @@
+.book-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  max-width: 1000px;
+  margin: 16px auto;
+  background-color: #3e3f47;
+  padding: 8px;
+  border-radius: 16px;
+  gap: 32px;
+  .img {
+    border-radius: 8px;
+    img {
+      border-radius: 8px;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+    .title {
+      display: flex;
+      flex-direction: column;
+
+      gap: 16px;
+    }
+    .details {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+    }
+  }
+}

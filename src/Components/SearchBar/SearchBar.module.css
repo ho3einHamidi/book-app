@@ -1,0 +1,14 @@
+.search-bar {
+  max-width: 1000px;
+  margin: 82px auto 64px auto;
+  input {
+    width: 300px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 8px;
+    background-color: white;
+    color: black;
+  }
+}
