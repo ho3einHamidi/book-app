@@ -1,7 +1,7 @@
 .book-card {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
   align-items: start;
   max-width: 1000px;
   margin: 16px auto;
@@ -9,27 +9,45 @@
   padding: 8px;
   border-radius: 16px;
   gap: 32px;
-  .img {
-    border-radius: 8px;
-    img {
-      border-radius: 8px;
-    }
-  }
-  .container {
+  .right-side {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
     gap: 16px;
-    padding-top: 16px;
-    .title {
+
+    .img {
+      border-radius: 8px;
+      img {
+        border-radius: 8px;
+        height: 128px;
+      }
+    }
+    .container {
       display: flex;
       flex-direction: column;
+      gap: 16px;
+      padding-top: 8px;
+      .title {
+        display: flex;
+        flex-direction: column;
 
-      gap: 16px;
+        gap: 16px;
+      }
+      .details {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+      }
     }
-    .details {
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
+  }
+  .heart {
+    display: flex;
+    justify-content: end;
+    img {
+      width: 32px;
+      height: 32px;
+      color: red;
     }
   }
 }
