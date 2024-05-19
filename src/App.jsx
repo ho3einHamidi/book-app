@@ -1,5 +1,5 @@
 import "./App.css";
-import BookCard from "./Components/Book/BookCard";
+import Books from "./Components/Books/Books";
 import SearchBar from "./Components/SearchBar/SearchBar";
 import Layout from "./Layouts/Layout";
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <Layout>
       <div className="app">
         <SearchBar />
-        <BookCard />
+        <Books />
       </div>
     </Layout>
   );

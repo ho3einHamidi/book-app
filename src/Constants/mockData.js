@@ -8,7 +8,6 @@ import img7 from "../assets/books/7.png";
 import img8 from "../assets/books/8.png";
 import img9 from "../assets/books/9.png";
 import img10 from "../assets/books/10.png";
-
 const books = [
   {
     id: "001",
