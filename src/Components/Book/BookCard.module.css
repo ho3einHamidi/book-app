@@ -47,7 +47,9 @@
     img {
       width: 32px;
       height: 32px;
-      color: red;
+    }
+    img:hover {
+      cursor: pointer;
     }
   }
 }
