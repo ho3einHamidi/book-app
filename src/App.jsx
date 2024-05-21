@@ -1,14 +1,13 @@
+import { useState } from "react";
 import "./App.css";
 import Books from "./Components/Books/Books";
 import SearchBar from "./Components/SearchBar/SearchBar";
+import { books } from "./Constants/mockData";
 import Layout from "./Layouts/Layout";
 function App() {
   return (
     <Layout>
-      <div className="app">
-        <SearchBar />
-        <Books />
-      </div>
+      <Books />
     </Layout>
   );
 }

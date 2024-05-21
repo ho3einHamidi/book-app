@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  margin: 16px;
+  gap: 16px;
+  background-color: #7c6ee9;
+  min-width: 230px;
+  border-radius: 6px;
+  img {
+    height: 50px;
+  }
+}

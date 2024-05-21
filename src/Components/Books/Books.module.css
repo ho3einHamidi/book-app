@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  .cards {
+    flex: 2.6 1 0;
+  }
+  .favorite {
+    flex: 1 1 0;
+    height: fit-content;
+    background-color: #6552f4;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 16px;
+    h4 {
+      padding: 8px 0 0 8px;
+    }
+  }
+}

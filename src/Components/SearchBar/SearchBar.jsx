@@ -1,8 +1,12 @@
 import styles from "./SearchBar.module.css";
-function SearchBar() {
+function SearchBar({ changeInputHandler }) {
   return (
     <div className={styles["search-bar"]}>
-      <input name="input" placeholder="Search Title" />
+      <input
+        onChange={(e) => changeInputHandler(e.target.value.toLowerCase())}
+        name="input"
+        placeholder="Search Title"
+      />
     </div>
   );
 }
